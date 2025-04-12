@@ -34,8 +34,6 @@ ENV EXT_DEPS \
   imagemagick-dev \
   libtool
 
-ENV IMAGICK_SHA 765649716faf3215b6ffca1b329e6a49aa42b24f
-
 WORKDIR /tmp/
 # hadolint ignore=SC2086,DL3017,DL3018
 RUN set -xe; \
